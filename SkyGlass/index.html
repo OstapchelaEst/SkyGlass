@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style/style.css">
+   <link rel="stylesheet" href="style/swiper-bundle.css">
+   <title>SkyGlass</title>
+
+</head>
+
+<body>
+   <div class="up-form">
+      <div class="up-form__content">
+         <div class="up-form__close">
+            <span></span>
+            <span></span>
+         </div>
+         <form action="mySendMail.php" method="POST" class="form">
+            <div class="form__item">
+               <label for="name" class="form__label">Как вас зовут?</label>
+               <input id="name" required type="text" name="name" placeholder="Имя" class="form__name _valid">
+            </div>
+            <div class="form__item">
+               <label for="email" class="form__label">Электронная почта</label>
+               <input id="email" required type="text" name="email" placeholder="Эл.почта" class="form__mail _valid">
+            </div>
+            <div class="form__item">
+               <label for="message" class="form__label">Ваше сообщение</label>
+               <textarea id="message" required name="message" rows="5" class="form__message _valid"></textarea>
+
+            </div>
+            <button id="submitForm" type="submit" class="form__button button-contact"> Отправить</button>
+         </form>
+      </div>
+   </div>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__menu menu">
+               <div class="menu__logo">
+                  <a href="index.html">
+                     <img src="assets/img/header/logo.png" alt="logo">
+                  </a>
+               </div>
+               <button type="button" class="menu__icon icon-menu"><span></span></button>
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item"><a href="#" data-anchor="projects" class="menu__link">Наши работы</a>
+                     </li>
+                     <li class="menu__item"><a href="#" data-anchor="services" class="menu__link">Услуги</a></li>
+                     <li class="menu__item"><a href="#" data-anchor="catalog" class="menu__link">Каталог</a></li>
+                     <li class="menu__item"><a href="#" data-anchor="info" class="menu__link">Инфо</a></li>
+
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main-page">
+            <div class="main-page__container">
+               <div class="main-page__body">
+
+                  <div class="main-page__decoration-rectangle">
+
+                  </div>
+                  <div class="main-page__title">
+                     <h1> Собственное производство по обработке стекла и зеркал</h1>
+                  </div>
+                  <div class="main-page__price">
+                     <a href="#" id="mail" class="button-contact">Написать нам</a>
+                  </div>
+                  <div class="main-page__text">
+                     <ul>
+                        <li>Помощь дизайнера</li>
+                        <li>Доставка и установка</li>
+                        <li>Выезд замерщика</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="main-page__right-picture">
+                  <img src="assets/img/main/right-pictyre.png" alt="picture room">
+               </div>
+               <div class="main-page__left-picture">
+                  <img src="assets/img/main/left-pictyre.png" alt="picture room">
+               </div>
+            </div>
+         </div>
+         <div id="projects" class="main-projects">
+            <div class="main-projects__container">
+               <div class="main-projects__title">
+                  <h3>О мастерах судят по их работе</h3>
+               </div>
+               <div class="main-projects__subtitle">
+                  <p>Зачем рассказывать, как круто мы это делаем? Посмотрите на наши работы и убедитесь сами!</p>
+               </div>
+               <div class="main-projects-slid">
+                  <div class="swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-1.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-2.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-3.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-1.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-2.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-3.png" alt="1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-1.png" alt="1.1">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-2.png" alt="1.2">
+                        </div>
+                        <div class="swiper-slide">
+                           <img class="slide-img" src="assets/img/main/slider/slide-3.png" alt="1.3">
+                        </div>
+                     </div>
+                     <div class="swiper-controlls">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="phone" class="main-phone">
+            <div class="main-phone__container">
+               <div class="main-phone__inner">
+                  <div class="main-phone__subtitle">
+                     Хотите узнать примерную
+                  </div>
+                  <div class="main-phone__title">
+                     <h3> стоимость изготовления за 5 минут?</h3>
+                  </div>
+                  <div class="main-phone__block">
+                     <div class="main-phone__text">Позвоните нам и мы ответим на все ваши вопросы</div>
+                     <div class="main-phone__button">
+                        <a href="tel:31412341" class="button-contact"> Связаться с нами </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="services" class="main-product">
+            <div class="main-product__container">
+               <div class="main-product__body">
+                  <div class="main-product__left">
+                     <img src="assets/img/main/product/left-picture.png" alt="left-picture">
+                     <div class="main-product__title">
+                        <h3>Что мы изготавливаем?</h3>
+                     </div>
+                     <div class="main-product__text">
+                        <p>Мы предоставляем следующие виды услуг: производство душевых кабин из стекла, изготовление
+                           зеркал, зеркал с LED - подсветкой, скинали, стеклянных перегородок, шкафов-купе с
+                           фотопечатью,
+                           резка, шлифовка, сверление, матирование стекла, зеркал, модульные стеклянные картины,
+                           плоттерная резка, широкоформатная печать(баннера).</p>
+                     </div>
+                  </div>
+                  <div class="main-product__right">
+                     <div class="main-product__decoration">
+                        <img src="assets/img/main/product/right-picture.png" alt="left-picture">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="catalog" class="main-catalog">
+            <div class="main-catalog__container">
+               <div class="main-catalog__title">
+                  <h3>Каталог продукции</h3>
+               </div>
+               <div class="main-catalog__body catalog-body">
+                  <div class="catalog-body__item mirrors">
+                     <div class="catalog-body__title">
+                        <h4> Зеркала</h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/mirrors.html" target="blank"> Просмотр</a>
+                     </div>
+                  </div>
+                  <div class="catalog-body__item skinalia">
+                     <div class="catalog-body__title">
+                        <h4>Скинали </h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/skinalia.html" target="blank"> Просмотр</a>
+                     </div>
+                  </div>
+                  <div class="catalog-body__item milling">
+                     <div class="catalog-body__title">
+                        <h4>Фрезеровка </h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/milling.html" target="blank"> Просмотр</a>
+                     </div>
+                  </div>
+                  <div class="catalog-body__item sandblast">
+                     <div class="catalog-body__title">
+                        <h4>Пескоструй </h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/sandblast.html" target="blank"> Просмотр</a>
+                     </div>
+                  </div>
+                  <div class="catalog-body__item photo-printing">
+                     <div class="catalog-body__title">
+                        <h4> Фотопечать</h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/photo-printing.html" target="blank"> Просмотр</a>
+                     </div>
+                  </div>
+                  <div class="catalog-body__item shower">
+                     <div class="catalog-body__title">
+                        <h4>Душевые кабины
+                           и перегородки</h4>
+                     </div>
+                     <div class="catalog-body__link">
+                        <a href="gallery-pages/shower.html" target="blank">Просмотр</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="info" class="main-us">
+            <div class="main-us__container">
+               <div class="main-us__body">
+                  <div class="main-us__title">
+                     <h3>Почему стоит выбрать именно нас?</h3>
+                  </div>
+                  <div class="main-us__text">
+                     <p>Монтаж зеркал и стекла – по сути самый ответственный и сложный момент при работе. Любые
+                        неточности могут повредить зеркало или стекло, а это в свою очередь приведёт к замене всего
+                        изделия. Поэтому данные услуги должны выполнять профессионалы. Наши специалисты имеют
+                        многолетний опыт работы с зеркалами и стеклом, поэтому производят монтаж быстро и
+                        качественно.
+                        А также помогут с вобором дизайна вашего заказа!
+                     </p>
+                  </div>
+                  <div class="main-us__right">
+                     <img src="assets/img/main/main-us/main-us-right.png" alt="picture">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+      </footer>
+
+
+   </div>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="index.js"></script>
+
+</body>
+
+</html>
